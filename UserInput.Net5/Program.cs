@@ -8,6 +8,8 @@ namespace UserInput.Net5
         {
             //Promts user to write something
             string input = Console.ReadLine();
+            Console.WriteLine(input);
+            Console.Read();
         }
     }
 }
