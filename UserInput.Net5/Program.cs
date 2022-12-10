@@ -6,7 +6,8 @@ namespace UserInput.Net5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Promts user to write something
+            string input = Console.ReadLine();
         }
     }
 }
